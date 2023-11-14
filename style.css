@@ -1,0 +1,392 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: white;
+    background-color: rgb(11, 4, 58);
+}
+
+#Home {
+    background-image: url(img/hero-bg.jpg);
+    background-color: #3e376c;
+    padding-bottom: 35px;
+    content: "";
+    opacity: 0.80;
+    font-weight: bold;
+}
+
+#Home img {
+    margin: 25px -170px 0px 30px;
+    width: 150px;
+}
+
+.navbar {
+    margin: auto;
+    display: table;
+}
+
+
+.nav {
+    align-items: center;
+    display: flex;
+    margin: auto;
+}
+
+.nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav ul li {
+    list-style: none;
+    font-size: 25px;
+    margin: 5px;
+    padding: 15px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.name {
+    display: table;
+    margin: auto;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.name h1 {
+    margin: 0px 0px 20px 0px;
+}
+
+#element{
+   margin-left: 35px; 
+}
+
+.btn-1 p {
+    display: table;
+    margin: auto;
+    margin-top: 15px;
+    padding: 5px 0px 6px 35px;
+    width: 90px;
+    background-color: rgb(135, 80, 252);
+    border-radius: 18px;
+}
+
+.btn-1 p a {
+    color: white;
+}
+
+/* <!-- ---------------------------- ABOUT ME ----------------------------------------------------------------------------------- --> */
+
+#Aboutme {
+    background-color: rgb(11, 4, 58);
+}
+
+.h-1 {
+    background-color: rgb(11, 4, 58);
+    padding: 30px 0px 0px 700px;
+    font-size: 22px;
+}
+
+.photo {
+    align-items: center;
+    margin: 44px;
+    display: flex;
+}
+
+.photo img {
+    border-radius: 4px;
+}
+
+.contant {
+    position: absolute;
+    top: 600px;
+    margin: 50px 58px 0px 454px;
+}
+
+.contant h2 {
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+.contant p {
+    font-size: 20px;
+}
+
+.icon {
+    display: table;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.icon i {
+    font-size: 65px;
+    margin: 13px;
+    color: white;
+}
+
+/* <!-- -------------------- SERVICES  ----------------------------------------------------------------------------------------- --> */
+
+.hr-1 {
+    background-color: rgb(11, 4, 58);
+    padding: 0px 100px 0px 100px;
+}
+
+.hr {
+    background-color: rgb(11, 4, 58);
+    padding: 0px 100px 0px 100px;
+    opacity: 0.2;
+}
+
+.h-2 {
+    background-color: rgb(11, 4, 58);
+    padding: 45px 0px 0px 155px;
+    font-size: 22px;
+}
+
+#f-1 {
+    justify-content: space-between;
+    display: flex;
+}
+
+#Services {
+    background-color: rgb(11, 4, 58);
+}
+
+.sc-1 {
+    margin: 50px 10px 10px 10px;
+    padding-left: 80px;
+}
+
+.sc-1 h1 {
+    margin-bottom: 30px;
+}
+
+.sc-1 p {
+    padding: 5px;
+}
+
+.sp-1 {
+    margin: 50px;
+}
+
+.sp-1 img {
+    border-radius: 10px;
+}
+
+/* <!-- ----------------------------------  S 2----------------------------------------------------------------------------- --> */
+
+#f-2 {
+    justify-content: space-between;
+    display: flex;
+}
+
+.sc-2 {
+    margin: 50px 10px 10px 10px;
+    padding-left: 80px;
+}
+
+.sc-2 h1 {
+    margin-bottom: 30px;
+}
+
+.sc-2 p {
+    padding: 5px;
+}
+
+.sp-2 {
+    margin: 50px;
+}
+
+.sp-2 img {
+    border-radius: 10px;
+}
+
+/* <!-- -------------------------------  S 3---------- ---------------------------------------------------------------------- --> */
+
+#f-3 {
+    justify-content: space-between;
+    display: flex;
+}
+
+.sc-3 {
+    margin: 50px 10px 10px 10px;
+    padding-left: 80px;
+}
+
+.sc-3 h1 {
+    margin-bottom: 30px;
+}
+
+.sc-3 p {
+    padding: 5px;
+}
+
+.sp-3 {
+    margin: 50px;
+}
+
+.sp-3 img {
+    border-radius: 10px;
+}
+
+.p-1 {
+    margin-bottom: 12px;
+}
+
+.p-2 {
+    margin-bottom: 5px;
+}
+
+/* <!-- ---------------------------- MY WORK ----------------------------------------------------------------------------------- --> */
+
+.h-3 {
+    background-color: rgb(11, 4, 58);
+    padding: 45px 0px 0px 155px;
+    font-size: 22px;
+}
+
+#mywork {
+    display: flex;
+    background-color: rgb(11, 4, 58);
+}
+
+.work h2 {
+    margin: auto;
+    display: table;
+    margin-bottom: 10px;
+}
+
+.work img {
+    margin: 21px 0px 20px 30px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+/* <!-- --------------------------------------------------------------------------------------------------------------- --> */
+
+.work-2 {
+    display: inline-block;
+    border: 2px solid red;
+    width: 450px;
+    height: 336px;
+    border-radius: 10px;
+    margin: 21px 0px 20px 80px;
+}
+
+.work-2 img {
+    width: 450px;
+    height: 336px;
+    border-radius: 10px;
+    margin: 21px 0px 20px 80px;
+}
+
+.work-2 h2 {
+    margin: auto;
+    display: table;
+    margin-bottom: 10px;
+}
+
+/* <!-- ---------------  CONTACT ME ------------------------------------------------------------------------------------------------ --> */
+
+.h-4 {
+    background-color: rgb(11, 4, 58);
+    padding: 120px 0px 65px 155px;
+    font-size: 22px;
+}
+
+#contact {
+    background-color: rgb(11, 4, 58);
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-left {
+    position: relative;
+    left: 100px;
+}
+
+.contact-left p {
+    margin-top: 35px;
+}
+
+.contact-left p i {
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.social-icon {
+    margin-top: 30px;
+}
+
+.social-icon i {
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: white;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+.social-icon i:hover {
+    transform: translateY(-5px);
+    color: rgb(135, 80, 252);
+}
+
+
+.btn-2 a {
+    text-decoration: none;
+    padding: 6px 20px 7px 20px;
+    background-color: rgb(135, 80, 252);
+    border-radius: 18px;
+    color: white;
+}
+
+.contact-right form {
+    width: 100%;
+}
+
+form input,
+form textarea {
+    width: 70%;
+    border: 0;
+    outline: none;
+    background: rgb(27, 20, 72);
+    padding: 15px;
+    margin: 15px;
+    color: white;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+.btn {
+    display: block;
+    text-decoration: none;
+    padding: 6px 20px 7px 20px;
+    background-color: rgb(135, 80, 252);
+    border-radius: 18px;
+    color: white;
+    margin: 10px;
+    border: none;
+    margin-left: 300px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+/* <!-- --------------------------------------------------------------------------------------------------------------- --> */
+
+footer {
+    background-color: #3e376c;
+    text-align: center;
+}

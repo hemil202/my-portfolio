@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(11, 4, 58);
+
+}
+
+/* <!-- -------------------------------------------------------------------------------------------------- --> */
+
+#a-1 {
+    display: inline-block;
+}
+
+#Home {
+    background-image: url(img/hero-bg.jpg);
+}
+
+#Home img {
+    width: 120px;
+    margin-bottom: 15px;
+}
+
+.navbar {
+    display: block;
+}
+
+.nav {
+    display: table; 
+}
+
+.nav ul li {
+    list-style: none;
+    font-size: 12px;
+    margin: 5px;
+    padding: 3px;
+}
+
+.name h1{
+    margin: 0px 0px 20px 10px;
+
+}
+
+.btn-1 p {
+    margin-bottom: 15px;
+}
+
+/* <!-- ---------------------------  ABOUT ME ----------------------------------------------------------------------- --> */
+
+#Aboutme {
+    display: block;
+}
+
+.h-1 {
+    display: contents;
+}
+
+.h-1 h1 {
+    display: table;
+    margin: auto;
+    margin-top: 11px;
+}
+
+.photo {
+    display: table;
+    margin: auto;
+    margin-top: 12px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgb(27, 20, 72)
+}
+
+.photo img {
+    width: 300px;
+}
+
+.contant {
+    display: contents;
+    margin: 10px;
+    padding-top: 5px;
+}
+
+.contant h2 {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.contant p {
+    text-align: center;
+    font-size: 95%;
+}
+
+.icon i {
+    font-size: 50px;
+}
+
+.hr-1 {
+    padding: 20px 25px 5px 25px;
+}
+
+/* <!-- -------------------- SERVICES  ----------------------------------------------------------------------------------------- --> */
+
+.hr {
+    padding: 10px 10px 0px 10px;
+}
+
+.h-2 {
+    padding: 14px;
+}
+
+#f-1 {
+    display: contents;
+}
+
+#Services {
+    background-color: rgb(11, 4, 58);
+    display: block ;
+}
+
+.sc-1 {
+    margin: 10px 10px 10px 10px;
+    padding-left: 0px;
+}
+
+.sc-1 h1 {
+    margin-bottom: 10px;
+}
+
+.sp-1 {
+    margin: auto;
+    display: table;
+}
+
+.sp-1 img {
+    width: 330px;
+    border-radius: 10px;
+}
+
+/* <!-- ----------------------------------  S 2----------------------------------------------------------------------------- --> */
+
+#f-2 {
+    display: contents;
+}
+
+.sc-2 {
+    margin: 30px 10px 10px 10px;
+    padding-left: 0px;
+}
+
+.sp-2 {
+    margin: auto;
+    display: table;
+}
+
+.sc-2 h1 {
+    margin-bottom: 10px;
+}
+
+.sp-2 img {
+    width: 330px;
+    border-radius: 10px;
+}
+
+/* <!-- -------------------------------  S 3---------- ---------------------------------------------------------------------- --> */
+
+#f-3 {
+    display: contents;
+}
+
+.sc-3 {
+    margin: 30px 10px 10px 10px;
+    padding-left: 0px;
+}
+
+.sp-3 {
+    margin: auto;
+    display: table;
+}
+
+.sc-3 h1 {
+    margin-bottom: 10px;
+}
+
+.sp-3 img {
+    width: 330px;
+    border-radius: 10px;
+}
+
+/* <!-- ---------------------------- MY WORK ----------------------------------------------------------------------------------- --> */
+
+.h-3 {
+    background-color: rgb(11, 4, 58);   
+    padding: 14px;
+}
+
+.work {
+    display: table;
+    margin: auto;
+    margin-top: 12px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(27, 20, 72)
+}
+
+#mywork {
+    display: block;
+    background-color: rgb(11, 4, 58);
+}
+
+.work h2 {
+    font-size: 25px;
+    margin: auto;
+    display: table;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.work img {
+    width: 340px;
+    margin: auto;
+    display: table;
+}
+
+
+.work-2 h2 {
+    margin: auto;
+    display: table;
+    margin-bottom: 10px;
+}
+
+/* <!-- --------------------  CONTACT ME ------------------------------------------------------------------------------------------- --> */
+
+.h-4 {
+    text-align: center;
+    background-color: rgb(11, 4, 58);
+    font-size: 15px;
+    margin-bottom: 10px;
+    padding: 14px;
+}
+
+#contact {
+    display: block;  
+    background-color: rgb(11, 4, 58);
+}
+
+.row {
+    display: contents;
+}
+
+.contact-left {
+    display: contents;
+}
+
+.contact-right {
+
+}
+
+.contact-left p {
+    margin: 20px;
+    margin-top: 35px;
+}
+
+.contact-left p i {
+    
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.social-icon {
+    margin: 20px;
+    margin-top: 30px;
+}
+
+.social-icon i {
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: white;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+form input,
+form textarea {
+    width: 80%;
+    border: 0;
+    outline: none;
+    background: rgb(27, 20, 72);
+    padding: 15px;
+    margin: 15px;
+    color: white;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+.btn {
+    display: block;
+    text-decoration: none;
+    padding: 6px 20px 7px 20px;
+    background-color: rgb(135, 80, 252);
+    border-radius: 18px;
+    color: white;
+    border: none;
+    margin: auto;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+
+
+/* <!-- --------------------------------------------------------------------------------------------------------------- --> */
+
